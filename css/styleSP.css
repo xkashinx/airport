@@ -1,0 +1,70 @@
+.plot {
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.spacing {
+    height: 25px;
+}
+
+#spacing3 {
+    display: none;
+}
+
+#slabField {
+    height: 180px;
+    width: 330px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #3aa00b;
+}
+
+#slabField .slab {
+    height: 135px;
+    width: 136px;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+#slabWrapper {
+    width: 320px;
+    margin: 0 auto;
+}
+.slabTitle{
+    width: 160px;
+    height: 10px;
+    font-size: 0.8em;
+    margin-top: 5px;
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+#slabField .slab#concreteSlab {
+    background-color: lightgrey;
+}
+
+#slabField .slab#asphaltSlab {
+    background-color: #3f4757;
+}
+
+.slabElement {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 20px;
+    background-color: #fffcc4;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+
+.slabElement:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
